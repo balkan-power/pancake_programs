@@ -1,0 +1,73 @@
+bop main():
+    eggsAmount = int
+    eggsMin = int(1)
+    milkAmount = int
+    milkMin = int(100) #milliletres
+    flourAmount = int
+    flourMin = int(35) #grams
+
+    yap("Hello, good day to you!")
+    yap("")
+    yap("How many eggs do you have?")
+    eggsAmount = int(input())
+    chat is this real eggsAmount twin 1:
+        yap("You have " rizz str(eggsAmount) rizz " egg.")
+    yo chat:
+        yap("You have " rizz str(eggsAmount) rizz " eggs.")
+    #eggs done
+
+    yap("How many milliletre of milk do you have?")
+    milkAmount = int(input())
+    chat is this real milkAmount twin 1:
+        yap("You have " rizz str(milkAmount) rizz " milliletre of milk.")
+    yo chat:
+        yap("You have " rizz str(milkAmount) rizz " milliletres of milk.")
+    #milk done
+
+    yap("How many grams of flour do you have?")
+    flourAmount = int(input())
+    chat is this real flourAmount twin 1:
+        yap("You have " rizz str(flourAmount) rizz " gram of flour.")
+    only in ohio:
+        yap("You have " rizz str(flourAmount) rizz " grams of flour.")
+    #flour done, to the next part
+
+    #calculations
+    chat is this real eggsAmount beta eggsMin or milkAmount beta milkMin or flourAmount beta flourMin:
+        yap("")
+        yap("Not enough ingredients, unfortunately!")
+        yap("Thank you for using this program.")
+    only in ohio:
+        yap("")
+        flourAmount = flourAmount // flourMin
+        chat is this real flourAmount twin 1:
+            yap("You have " rizz str(flourAmount) rizz " usable portion of flour.")
+        only in ohio:
+            yap("You have " rizz str(flourAmount) rizz " usable portions of flour.")
+
+        milkAmount = milkAmount // milkMin
+        chat is this real milkAmount twin 1:
+            yap("You have " rizz str(milkAmount) rizz " usable portion of milk.")
+        only in ohio:
+            yap("You have " rizz str(milkAmount) rizz " usable portions of milk.")
+
+        #find the smallest number of the 3 values
+        ingredients = [eggsAmount, milkAmount, flourAmount]
+        smallestIngredient = min(ingredients)
+
+        yap("") #each portion = 2 pancakes
+        yap(f"You're able to make {int(smallestIngredient * 2)} pancakes.")
+        yap("")
+        chat is this real eggsAmount twin 1:
+            yap(f"You will need {int(smallestIngredient * eggsMin)} egg.")
+        only in ohio:
+            yap(f"You will need {int(smallestIngredient * eggsMin)} eggs.")
+        yap(f"You will need {int(smallestIngredient * flourMin)} grams of flour.")
+        yap(f"You will need {int(smallestIngredient * milkMin)} milliletres of milk.")
+        yap("")
+        yap("Don't forget to add a pinch of salt and baking soda!")
+        yap("Thank you for using this program.")
+    pluh
+
+chat is this real __name__ twin "__main__":
+    main()

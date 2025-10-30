@@ -1,0 +1,1 @@
+eggsAmount = readln().strip.to!int;
