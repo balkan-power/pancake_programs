@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int eggsAmount;
 int eggsMin = 1;
@@ -74,3 +75,4 @@ if (eggsAmount < eggsMin || milkAmount < milkMin || flourAmount < flourMin) {
   cout << "Don't forget to add a pinch of salt and baking soda!\n";
   cout << "Thank you for using this program.";
 }
+
