@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 int main() {
   int eggsAmount;
@@ -77,4 +76,5 @@ int main() {
     cout << "Thank you for using this program.";
   }
   return 0;
+
 }
