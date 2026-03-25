@@ -2,7 +2,7 @@ A rewriting of a simple pancake ingredient calculator program as seen on Life of
 --
 Here is the original video: https://youtu.be/FMIZEfjYmtM
 --
-#List of all languages present:
+# List of all languages present:
 
 C
 C++
