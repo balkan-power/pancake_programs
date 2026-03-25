@@ -31,7 +31,7 @@ void main() {
     }
     //milk done
 
-    writeln("How many grams flour do you have?");
+    writeln("How many grams of flour do you have?");
     flourAmount = readln().strip.to!int;
     if (flourAmount == 1) {
         writeln("You have ", flourAmount, " gram of flour.");
