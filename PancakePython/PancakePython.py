@@ -23,7 +23,7 @@ else:
     print("You have " + str(milkAmount) + " milliletres of milk.")
 #milk done
 
-print("How many grams flour do you have?")
+print("How many grams of flour do you have?")
 flourAmount = int(input())
 if flourAmount == 1:
     print("You have " + str(flourAmount) + " gram of flour.")

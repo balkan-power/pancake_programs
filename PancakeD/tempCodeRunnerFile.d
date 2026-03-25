@@ -1,1 +1,1 @@
-eggsAmount = readln().strip.to!int;
+void main() {

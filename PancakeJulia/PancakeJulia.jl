@@ -22,7 +22,7 @@ else
 end
 #milk done
 
-println("How many grams flour do you have?")
+println("How many grams of flour do you have?")
 flourAmount = parse(Int, readline())
 if flourAmount == 1
     println("You have $flourAmount gram of flour.")

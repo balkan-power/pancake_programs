@@ -28,7 +28,7 @@ int main() {
     }
     //milk done
 
-    printf("How many grams flour do you have?\n");
+    printf("How many grams of flour do you have?\n");
     scanf("%d", &flourAmount);
     if (flourAmount == 1) {
         printf("You have %d gram of flour.\n", flourAmount);

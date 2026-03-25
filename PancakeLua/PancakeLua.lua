@@ -25,7 +25,7 @@ else
 end
 --milk done
 
-print("How many grams flour do you have?")
+print("How many grams of flour do you have?")
 flourAmount = io.read("*n")
 if flourAmount == 1 then
     print("You have " .. flourAmount .. " gram of flour.")

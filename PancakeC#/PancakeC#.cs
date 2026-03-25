@@ -34,7 +34,7 @@ else
 }
 //milk done
 
-Console.WriteLine("How many grams flour do you have?");
+Console.WriteLine("How many grams of flour do you have?");
 flourAmount = Convert.ToInt32(Console.ReadLine());
 if (flourAmount == 1)
 {

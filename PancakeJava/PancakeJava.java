@@ -32,7 +32,7 @@ public class PancakeJava {
         }
         //milk done
 
-        System.out.println("How many grams flour do you have?");
+        System.out.println("How many grams of flour do you have?");
         flourAmount = userInput.nextInt();
         if (flourAmount == 1) {
             System.out.println("You have " + flourAmount + " gram of flour.");
