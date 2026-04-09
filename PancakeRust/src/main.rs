@@ -2,11 +2,8 @@
 use std::io;
 
 fn main() {
-    let eggsAmount: i32;
     let eggsMin: i32 = 1;
-    let mut milkAmount: i32;
     let milkMin: i32 = 100; //milliletres
-    let mut flourAmount: i32;
     let flourMin: i32 = 35; //grams
 
     let mut input = String::new(); // user input variable
