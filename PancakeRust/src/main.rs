@@ -11,14 +11,9 @@ fn main() {
     println!("Hello, good day to you!");
     println!("");
     println!("How many eggs do you have?");
-    io::stdin()
-    .read_line(&mut input)
-    .expect("Failed to read line!");
-    let eggsAmount: i32 = input
-    .trim()          // remove \n
-    .parse()         // String -> number
-    .expect("Please enter a number!");
-    if (eggsAmount == 1) {
+    io::stdin().read_line(&mut input).expect("");
+    let eggsAmount: i32 = input.trim().parse().expect("");
+    if eggsAmount == 1 {
         println!("You have {} egg.", eggsAmount);
     } else {
         println!("You have {} eggs.", eggsAmount);
@@ -27,14 +22,9 @@ fn main() {
     //eggs done
 
     println!("How many milliletres of milk do you have?");
-    io::stdin()
-    .read_line(&mut input)
-    .expect("Failed to read line!");
-    let milkAmount: i32 = input
-    .trim()          // remove \n
-    .parse()         // String -> number
-    .expect("Please enter a number!");
-    if (milkAmount == 1) {
+    io::stdin().read_line(&mut input).expect("");
+    let milkAmount: i32 = input.trim().parse().expect("");
+    if milkAmount == 1 {
         println!("You have {} milliletre of milk.", milkAmount);
     } else {
         println!("You have {} milliletres of milk.", milkAmount);
@@ -43,14 +33,9 @@ fn main() {
     //milk done
 
     println!("How many grams of flour do you have?");
-    io::stdin()
-    .read_line(&mut input)
-    .expect("Failed to read line!");
-    let flourAmount: i32 = input
-    .trim()          // remove \n
-    .parse()         // String -> number
-    .expect("Please enter a number!");
-    if (flourAmount == 1) {
+    io::stdin().read_line(&mut input).expect("");
+    let flourAmount: i32 = input.trim().parse().expect("");
+    if flourAmount == 1 {
         println!("You have {} grams of flour.", flourAmount);
     } else {
         println!("You have {} grams of flour.", flourAmount);
@@ -59,21 +44,21 @@ fn main() {
     //flour done, to the next part
 
     //calculations
-    if (eggsAmount < eggsMin || milkAmount < milkMin || flourAmount < flourMin) {
+    if eggsAmount < eggsMin || milkAmount < milkMin || flourAmount < flourMin {
         println!("");
         println!("Not enough ingredients, unfortunately!");
         println!("Thank you for using this program.");
     } else {
         println!("");
         let flourAmount: i32 = flourAmount / flourMin;
-        if (flourAmount == 1) {
+        if flourAmount == 1 {
             println!("You have {} usable portion of flour.", flourAmount);
         } else {
             println!("You have {} usable portions of flour.", flourAmount);
         }
 
         let milkAmount: i32 = milkAmount / milkMin;
-        if (milkAmount == 1) {
+        if milkAmount == 1 {
             println!("You have {} usable portion of milk.", milkAmount);
         } else {
             println!("You have {} usable portions of milk.", milkAmount);
@@ -85,7 +70,7 @@ fn main() {
         println!(""); //each portion = 2 pancakes
         println!("You're able to make {} pancakes.", smallestIngredient * 2,);
         println!("");
-        if (smallestIngredient * eggsMin == 1) {
+        if smallestIngredient * eggsMin == 1 {
             println!("You will need {} egg.", smallestIngredient * eggsMin,);
         } else {
             println!("You will need {} eggs.", smallestIngredient * eggsMin,);
