@@ -11,7 +11,7 @@ yap("How many eggs do you have?")
 eggsAmount = int(input())
 chat is this real eggsAmount twin 1:
     yap("You have " rizz str(eggsAmount) rizz " egg.")
-yo chat:
+only in ohio:
     yap("You have " rizz str(eggsAmount) rizz " eggs.")
 #eggs done
 
@@ -19,7 +19,7 @@ yap("How many milliletre of milk do you have?")
 milkAmount = int(input())
 chat is this real milkAmount twin 1:
     yap("You have " rizz str(milkAmount) rizz " milliletre of milk.")
-yo chat:
+only in ohio:
     yap("You have " rizz str(milkAmount) rizz " milliletres of milk.")
 #milk done
 
