@@ -12,7 +12,7 @@ fn main() {
     println!("");
     println!("How many eggs do you have?");
     io::stdin().read_line(&mut input).expect("Input reading fail!");
-    let eggsAmount: i32 = input.trim().parse().expect("Trimming and parsing fail!");
+    let eggsAmount: i32 = input.trim().parse().expect("Parsing fail!");
     if eggsAmount == 1 {
         println!("You have {} egg.", eggsAmount);
     } else {
@@ -23,7 +23,7 @@ fn main() {
 
     println!("How many milliletres of milk do you have?");
     io::stdin().read_line(&mut input).expect("Input reading fail!");
-    let milkAmount: i32 = input.trim().parse().expect("Trimming and parsing fail!");
+    let milkAmount: i32 = input.trim().parse().expect("Parsing fail!");
     if milkAmount == 1 {
         println!("You have {} milliletre of milk.", milkAmount);
     } else {
@@ -34,7 +34,7 @@ fn main() {
 
     println!("How many grams of flour do you have?");
     io::stdin().read_line(&mut input).expect("Input reading fail!");
-    let flourAmount: i32 = input.trim().parse().expect("Trimming and parsing fail!");
+    let flourAmount: i32 = input.trim().parse().expect("Parsing fail!");
     if flourAmount == 1 {
         println!("You have {} grams of flour.", flourAmount);
     } else {
