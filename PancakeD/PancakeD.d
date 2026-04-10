@@ -1,5 +1,5 @@
 import std.stdio;
-import std.algorithm;
+import std.algorithm : min;
 import std.string : strip;
 import std.conv : to;
 
@@ -62,7 +62,7 @@ void main() {
         }
 
         //find the smallest number of 3 values
-        int smallestIngredient = min(flourAmount, min(eggsAmount, milkAmount));
+        int smallestIngredient = min(flourAmount, eggsAmount, milkAmount);
 
         writeln(""); //each portion = 2 pancakes
         writeln("You're able to make ", smallestIngredient * 2, " pancakes.");
