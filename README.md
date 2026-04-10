@@ -13,3 +13,8 @@ Here is the original video: https://youtu.be/FMIZEfjYmtM
 - Python
 - Ruby
 - Rust
+
+# Meme language:
+- PyGyat
+
+:p
