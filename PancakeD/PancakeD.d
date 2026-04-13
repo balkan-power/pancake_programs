@@ -1,5 +1,5 @@
 import std.stdio;
-import std.algorithm : min;
+import std.algorithm;
 import std.string : strip;
 import std.conv : to;
 
