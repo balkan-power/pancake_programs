@@ -1,7 +1,7 @@
 import std.stdio;
 import std.algorithm;
-import std.string : strip;
-import std.conv : to;
+import std.string;
+import std.conv;
 
 void main() {
     int eggsAmount;
