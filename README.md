@@ -9,10 +9,12 @@ Here is the original video: https://youtu.be/FMIZEfjYmtM
 - D
 - Java
 - Julia
+- Kotlin
 - Lua
 - Python
 - Ruby
 - Rust
+- Swift
 
 # Meme language:
 - PyGyat
