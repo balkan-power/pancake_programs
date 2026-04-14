@@ -33,7 +33,7 @@ fun main() {
     } else {
         println("You have $flourAmount grams of flour.")
     }
-    //flour done
+    //flour done, to the next part
 
     //calculations
     if (eggsAmount < eggsMin || milkAmount < milkMin || flourAmount < flourMin) {

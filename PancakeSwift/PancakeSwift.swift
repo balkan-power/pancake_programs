@@ -32,7 +32,7 @@ if (flourAmount == 1) {
 } else {
     print("You have \(flourAmount) grams of flour.")
 }
-//flour done
+//flour done, to the next part
 
 //calcuations
 if (eggsAmount < eggsMin || milkAmount < milkMin || flourAmount < flourMin) {
