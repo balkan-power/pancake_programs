@@ -1,4 +1,4 @@
-package PancakeGo
+package main
 
 import "fmt"
 
