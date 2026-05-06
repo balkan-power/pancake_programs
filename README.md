@@ -7,6 +7,7 @@ Here is the original video: https://youtu.be/FMIZEfjYmtM
 - C++
 - C#
 - D
+- Go
 - Java
 - Julia
 - Kotlin
